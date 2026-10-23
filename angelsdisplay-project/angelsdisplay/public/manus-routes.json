@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "path": "/", "title": "Angels Display Solutions" },
+    { "path": "/gallery.html", "title": "Gallery & Shop | Angels Display Solutions" }
+  ]
+}

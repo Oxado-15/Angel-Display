@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Explore temporary gallery work and sample display products from Angels Display Solutions." />
+    <title>Gallery & Shop | Angels Display Solutions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/src/styles.css" />
+  </head>
+  <body data-page="gallery">
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header site-header-solid" data-header>
+      <a class="brand" href="/" aria-label="Angels Display Solutions home"><span class="brand-mark"><img src="/assets/angels-logo-transparent.png" alt="Angels Display Solutions LLP logo" /></span><span class="brand-name">Angels <small>Display Solutions LLP</small></span></a>
+      <nav class="site-nav" aria-label="Primary navigation" data-nav><a href="/">Home</a><a href="/#about">About Us</a><a href="/#services">Services</a><a href="/gallery.html" aria-current="page">Gallery</a><a href="/#contact">Contact</a></nav>
+      <div class="header-actions"><a class="header-shop" href="mailto:hello@example.com?subject=Display%20solutions%20enquiry">Enquire <span>↗</span></a><button class="menu-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false" data-menu-toggle><span></span><span></span><span></span><b class="sr-only">Open menu</b></button></div>
+    </header>
+    <main id="main-content">
+      <section class="page-hero section-shell"><p class="eyebrow">ANGELS DISPLAY SOLUTIONS <span class="eyebrow-rule"></span> GALLERY</p><h1>A collection of<br /><em>considered moments.</em></h1><p class="page-hero-copy">Temporary imagery for now, arranged as a visual index of display, interiors, furniture, and packaging. Replace each image and caption in <code>src/content.js</code>.</p></section>
+      <section class="gallery-page section-pad"><div class="section-shell"><div class="filter-row"><div class="filter-buttons" data-gallery-filters aria-label="Filter gallery"></div><span class="filter-note">Tap an image to enlarge</span></div><div class="gallery-masonry" data-gallery-grid></div></div></section>
+      <section class="shop section-pad" id="shop"><div class="section-shell"><div class="section-heading heading-split"><div><p class="eyebrow">DISPLAY COLLECTION / ENQUIRE</p><h2>Objects for the<br /><em>retail stage.</em></h2></div><p class="heading-note">Explore display stands, fixtures, furniture, and packaging. For availability, customization, and project details, contact the Angels Display Solutions team directly.</p></div><div class="shop-toolbar"><label class="search-field"><span class="sr-only">Search products</span><input type="search" placeholder="Search the collection" data-product-search /><span>⌕</span></label><div class="product-filters" data-product-filters></div></div><div class="product-grid" data-product-grid></div></div></section>
+    </main>
+    <footer class="site-footer"><div class="section-shell footer-top"><div class="footer-brand"><img src="/assets/angels-logo-transparent.png" alt="Angels Display Solutions LLP logo" /><p>[EDITABLE PLACEHOLDER] Your vision. Our creation.</p></div><div class="footer-contact"><p class="eyebrow">CONTACT</p><a data-contact-email href="mailto:hello@example.com">hello@example.com</a><span data-footer-phone></span><span data-footer-address></span></div><div class="footer-social"><p class="eyebrow">FIND THE STUDIO</p><a data-contact-whatsapp href="#contact">WhatsApp [ADD WHATSAPP NUMBER]</a><a data-contact-instagram href="#contact">Instagram ↗</a><a data-contact-email href="mailto:hello@example.com">Email ↗</a></div></div><div class="section-shell footer-bottom"><span>© 2026 Angels Display Solutions LLP</span><span>Sample gallery & shop prototype</span><a href="#main-content">Back to top ↑</a></div></footer>
+    <div class="lightbox" data-lightbox aria-hidden="true"><div class="lightbox-backdrop" data-lightbox-close></div><div class="lightbox-dialog" role="dialog" aria-modal="true" aria-labelledby="lightbox-title"><button class="lightbox-close" type="button" data-lightbox-close aria-label="Close image viewer">×</button><button class="lightbox-arrow lightbox-prev" type="button" data-lightbox-prev aria-label="Previous image">←</button><figure><img data-lightbox-image alt="" /><figcaption><p class="eyebrow" data-lightbox-category></p><h2 id="lightbox-title" data-lightbox-title></h2><p data-lightbox-caption></p></figcaption></figure><button class="lightbox-arrow lightbox-next" type="button" data-lightbox-next aria-label="Next image">→</button></div></div>
+    <div class="cart-drawer" data-cart-drawer aria-hidden="true"><div class="cart-backdrop" data-cart-close></div><aside class="cart-panel" role="dialog" aria-modal="true" aria-labelledby="cart-title"><div class="cart-panel-head"><div><p class="eyebrow">YOUR SELECTION</p><h2 id="cart-title">Display cart</h2></div><button class="icon-button" type="button" data-cart-close aria-label="Close cart">×</button></div><div class="cart-items" data-cart-items></div><div class="cart-total"><span>Subtotal</span><strong data-cart-total>₹0</strong></div><button class="button button-dark cart-checkout" type="button" data-checkout>Checkout prototype <span>↗</span></button><p class="checkout-note">Sample browsing only. Payment, shipping, taxes, and order handling are not connected.</p></aside></div>
+    <script type="module" src="/src/app.js"></script>
+  </body>
+</html>
